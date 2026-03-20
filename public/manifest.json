@@ -1,0 +1,17 @@
+{
+  "name": "Solar Guardian",
+  "short_name": "SolarGuardian",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#10B981",
+  "description": "Solar Guardian Client Portal",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/DS33CMQ/Gemini-Generated-Image-xpt698xpt698xpt6-removebg-preview.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
