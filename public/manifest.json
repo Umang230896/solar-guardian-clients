@@ -22,7 +22,7 @@
       "is256x256": false,
       "is192x192": false
     }, {
-       {
+       
       "src": "https://solar-guardian-clients.vercel.app/icon.png",
       "type": "image/png",
       "isSquare": true,
@@ -33,7 +33,18 @@
       "is512x512": false,
       "is256x256": false,
       "is192x192": true
-    }
+    
+    }, {
+      "src": "https://solar-guardian-clients.vercel.app/logo.png",
+      "type": "image/png",
+      "isSquare": true,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 1920,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": true
     }
   ],
   "edge_side_panel": {
