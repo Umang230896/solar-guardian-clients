@@ -21,5 +21,11 @@
       "is256x256": false,
       "is192x192": false
     }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 8
+  },
+  "categories": [
+    "lifestyle"
   ]
 }
