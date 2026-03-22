@@ -18,7 +18,7 @@
       "isWebp": false,
       "isJpg": false,
       "width": 1920,
-      "is512x512": fasle,
+      "is512x512": false,
       "is256x256": false,
       "is192x192": false
     }, {
@@ -32,7 +32,7 @@
       "width": 1920,
       "is512x512": false,
       "is256x256": false,
-      "is192x192": fasle
+      "is192x192": false
     
     }, {
       "src": "https://solar-guardian-clients.vercel.app/logo.png",
