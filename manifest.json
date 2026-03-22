@@ -2,11 +2,11 @@
   "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
-  "name": "Solar Guardian Clients Portal.vercel",
+  "name": "Solar Guardian Clients Portal",
   "orientation": "any",
   "scope": "/",
   "short_name": "Solar Guardian",
-  "start_url": "/",
+  "start_url": "https://solar-guardian-clients.vercel.app/",
   "theme_color": "#ffffff",
   "icons": [
     {
