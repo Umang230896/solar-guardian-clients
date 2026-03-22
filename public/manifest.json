@@ -11,7 +11,7 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://solar-guardian-clients.vercel.app/favicon.svg",
+      "src": "https://solar-guardian-clients.vercel.app/icons.svg",
       "type": "image/svg+xml",
       "isSquare": false,
       "isPng": false,
