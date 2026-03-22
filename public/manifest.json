@@ -63,10 +63,79 @@
       "purpose": "any"
     }
   ],
-  "edge_side_panel": {
-    "preferred_width": 8
+  "shortcuts": [
+    {
+      "name": "View My Bills",
+      "short_name": "Bills",
+      "description": "Quickly view your recent invoices",
+      "url": "/?tab=bills",
+      "icons": [
+        {
+          "src": "https://solar-guardian-clients.vercel.app/logo-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contact Support",
+      "short_name": "Support",
+      "description": "Get help from Solar Guardian",
+      "url": "/?tab=profile",
+      "icons": [
+        {
+          "src": "https://solar-guardian-clients.vercel.app/logo-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
   },
+  "share_target": {
+    "action": "/?action=share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+solarguardian",
+      "url": "/?route=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "image/jpeg": [".jpg", ".jpeg"],
+        "image/png": [".png"]
+      }
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "note_taking": {
+    "new_note_url": "/?action=new_note"
+  },
+  "widgets": [
+    {
+      "name": "Next Service Widget",
+      "description": "Shows your upcoming solar cleaning service",
+      "tag": "next_service",
+      "ms_ac_template": "widget_template.json",
+      "data": "widget_data.json",
+      "type": "application/json"
+    }
+  ],
   "categories": [
     "lifestyle"
+  ]
   ]
 }
