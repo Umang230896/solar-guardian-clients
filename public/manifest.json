@@ -7,6 +7,7 @@
   "scope": "/",
   "short_name": "Solar Guardian",
   "start_url": "https://solar-guardian-clients.vercel.app/",
+  "description": "Client portal for Solar Guardian's professional solar panel cleaning and maintenance services. Track your invoices, payments, and service schedules easily.",
   "theme_color": "#ffffff",
   "icons": [
     {
