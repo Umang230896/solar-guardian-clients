@@ -346,6 +346,29 @@ export default function App() {
     initSupabase();
   }, []);
 
+// Auto-login session check
+  useEffect(() => {
+    const checkSession = async () => {
+      const savedUserId = localStorage.getItem('solar_guardian_client_id');
+      if (savedUserId && supabase) {
+        setLoading(true);
+        try {
+          const { data, error } = await supabase.from('clients').select('*').eq('id', savedUserId).single();
+          if (data && !error) {
+            setUser(data);
+            fetchClientData(data.id);
+          } else {
+            localStorage.removeItem('solar_guardian_client_id');
+          }
+        } catch (err) {
+          console.error('Session check failed', err);
+        }
+        setLoading(false);
+      }
+    };
+    checkSession();
+  }, [supabase]);
+  
   // 2. Login Handler
   const handleLogin = async (e) => {
     e.preventDefault();
