@@ -10,6 +10,19 @@
   "description": "Client portal for Solar Guardian's professional solar panel cleaning and maintenance services. Track your invoices, payments, and service schedules easily.",
   "theme_color": "#ffffff",
   "icons": [
+    {
+      "src": "https://solar-guardian-clients.vercel.app/logo.png",
+      "type": "image/png",
+      "isSquare": true,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 192,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": true,
+      "purpose": "any"
+    },
      {
       "src": "https://solar-guardian-clients.vercel.app/icons.svg",
       "type": "image/svg+xml",
@@ -36,19 +49,7 @@
       "is192x192": false,
       "purpose": "any"
     
-    }, {
-      "src": "https://solar-guardian-clients.vercel.app/logo.png",
-      "type": "image/png",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 192,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": true,
-      "purpose": "any"
-    }, {
+    },  {
       "src": "https://solar-guardian-clients.vercel.app/logo-512.png",
       "type": "image/png",
       "isSquare": true,
